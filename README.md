@@ -1,5 +1,5 @@
 # goDb
-Learning how to db :D
+Connects to MySQL db and does some CRUD ops.
 
 ## Instructions:
 
