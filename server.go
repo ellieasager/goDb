@@ -19,6 +19,7 @@ func (u User) String() string {
 func main() {
 
 	// refer https://github.com/go-sql-driver/mysql#dsn-data-source-name for details
+	// NOTE: my username and password is "ellie"; if yours isn't - please change those parts!
 	connectionDeets := "ellie:ellie@tcp(127.0.0.1:3306)/gobase?charset=utf8mb4&parseTime=True&loc=Local"
 	db, err := gorm.Open(mysql.Open(connectionDeets), &gorm.Config{})
 
